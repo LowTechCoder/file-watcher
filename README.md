@@ -4,6 +4,9 @@ LowTech File Watcher
 
 This script watches files that are edited, compiles the 'less' files, and then it uploads them to a remote server. It also optionaly can upload a file outside of the project directory to the server when a file is saved in the project. All of the options in the watch.conf file are there, and can be uncommented if needed.  The watch.conf and watch.bash files need to be in your project.  Place the other files where ever you put scripts.  Edit the watch.bash file to point to the _main.bash file. Edit the watch.conf file with your remote credentials.  Edit the includes.conf file to set witch files to watch for.  I have set a good ammount already for basic web coding needs.  Edit the path_excludes.conf file for any files or directories you would like to exclude.
 
+run the script like this, from your project directory:
+bash watch.bash
+
 Required commands:
 sed
 find
