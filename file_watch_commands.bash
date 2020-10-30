@@ -1,6 +1,6 @@
 script_path="$1"
 scripts_path="$2"
-source "$script_path/mat_watch.conf"
+source "$script_path/watch.conf"
 source "$scripts_path/process_vars.bash"
 
 path_excludes=''

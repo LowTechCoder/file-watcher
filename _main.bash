@@ -1,6 +1,6 @@
 
 script_path="$PWD"
-source "$script_path/mat_watch.conf"
+source "$script_path/watch.conf"
 #remove file name after last slash
 scripts_path=$(echo $0 | sed 's|\(.*\)/.*|\1|')
 
