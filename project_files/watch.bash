@@ -1,0 +1,1 @@
+bash "/home/YOU/scripts/watch_n_upload_files/_main.bash"
